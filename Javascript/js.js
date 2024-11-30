@@ -30,7 +30,7 @@ projectButtons.forEach(button => {
 const pindahproject1 = document.querySelector('#project-1'); // Replace 'div' with the ID or class of your actual div element
 
 pindahproject1.addEventListener('click', function() {
-  window.location.href = '../html/project.html'; // Replace 'https://www.example.com' with the URL of your desired page
+  window.location.href = './html/project.html'; // Replace 'https://www.example.com' with the URL of your desired page
 });
 
 // Scroll Reveal Animation
